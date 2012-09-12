@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Contacts",
+	"version": "0.1",
+	"description": "saves and texts contacts",
+	"browser_action": {
+		"default_popup": "contacts.html",
+		"default_title": "Contacts",
+		"default_icon": "img/contacts.jpg"
+	},
+	"content_security_policy": "script-src 'self' https://jsonpify.heroku.com; object-src 'self'"
+}

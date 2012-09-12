@@ -1,0 +1,13 @@
+#container {
+	width: 330px;
+}
+#name {
+	width: 80px;
+}
+#number {
+	width: 130px;
+}
+#contacts {
+	max-height: 500px;
+	overflow: scroll;
+}
